@@ -413,7 +413,7 @@ export function LiveClassRoom({
             };
 
             const handlePageHide = () => {
-              void markAttendance(sessionId, "leave", true);
+              void markAttendance(sessionId, "leave");
             };
 
             document.addEventListener("visibilitychange", handleVisibilityChange);
