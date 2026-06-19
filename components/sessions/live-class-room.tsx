@@ -502,7 +502,7 @@ export function LiveClassRoom({
     cleanupRef.current?.();
 
     // Mark attendance leave
-    await markAttendance(sessionId, "leave", true);
+    await markAttendance(sessionId, "leave");
 
     setStatus("idle");
     setProctorStatus("idle");
