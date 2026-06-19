@@ -612,10 +612,10 @@ export function LiveClassRoom({
           <button
             type="button"
             onClick={() => void startRoom()}
-            disabled={status === "starting"}
+            disabled={false}
             className="inline-flex rounded-2xl bg-ink px-4 py-3 text-sm font-medium text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-70"
           >
-            {status === "starting" ? "Starting room..." : "Start ClassyGenz Live"}
+            "Start ClassyGenz Live"
           </button>
         )}
 
